@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  /* color: white; */
 }
 html {
   font-size: 1px;
   font-family: 'Roboto', sans-serif;
   color: white;
+  background-color: rgb(179, 179, 179);
 }
 body {
   height: inherit;

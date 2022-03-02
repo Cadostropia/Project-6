@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.a{
+    height: 800rem;
+    width: 800rem;
+    margin: 100rem;
+    background-color: rgba(255, 228, 196, 0.6);
+    border: 1rem dotted black;
+    background-image: url(/image/icons8-folder.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#first{
+    height: 800rem;
+    width: 800rem;
+    margin: 100rem;
+    background-color: rgba(255, 228, 196, 0.6);
+    font-size: 50rem;
+
+}
