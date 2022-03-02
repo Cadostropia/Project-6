@@ -1,10 +1,5 @@
 'use strict';
-fetch('/JSON/01.json')
-.then(results => results.json())
-.then(data => {
-    console.log(data.name)
-    document.querySelector("#first").innerText = data.name
-})
+// --------------------------------------------------
 const meJSON = `
     {
         "name": "Salih",
@@ -25,3 +20,19 @@ const car = {
 };
 const carJson = JSON.stringify(car);
 console.log(carJson);
+// --------------------------------------------------
+fetch('/JSON/people.json').then(function(response){
+    return response.json();
+}).then(function(obj){
+    console.log(obj);
+}).catch(function(error){
+    console.error('ERROR WARNING')
+})
+
+document.getElementById("div-to-be-changed").textContent = carJson;
+function changeText(){
+    console.log("Change Text was clicked");
+    // document.getElementById("div-to-be-changed").textContent = "Hello I am RKCT602";
+    document.getElementById("div-to-be-changed").textContent = document.getElementById("written-text").value;
+    // document.getElementById("div-to-be-changed").textContent = "";    
+}

@@ -1,14 +1,7 @@
-body{
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
 
-}
 .a{
-    height: 800rem;
-    width: 800rem;
+    height: 200rem;
+    width: 200rem;
     margin: 100rem;
     background-color: rgba(255, 228, 196, 0.6);
     border: 1rem dotted black;
@@ -17,10 +10,28 @@ body{
     background-position: center;
 }
 #first{
-    height: 800rem;
-    width: 800rem;
+    height: 100rem;
+    width: 200rem;
     margin: 100rem;
     background-color: rgba(255, 228, 196, 0.6);
     font-size: 50rem;
 
+}
+#div-to-be-changed{
+    height: 300rem;
+    width: 500rem;
+    margin: 50rem;
+    padding: 10rem;
+    background-color: rgba(207, 207, 207, 0.6);
+    border: 10rem solid black;
+    color: darkturquoise;
+    font-size: 30rem;
+}
+.b01{
+    height: 50rem;
+    width: 600rem;
+}
+.b02{
+    height: 50rem;
+    width: 150rem;
 }
