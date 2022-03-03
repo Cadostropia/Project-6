@@ -36,3 +36,5 @@ function changeText(){
     document.getElementById("div-to-be-changed").textContent = document.getElementById("written-text").value;
     // document.getElementById("div-to-be-changed").textContent = "";    
 }
+// var obj01 = require('/JSON/people.json');
+// console.log(obj01);
