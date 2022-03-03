@@ -22,6 +22,17 @@
   color: darkturquoise;
   font-size: 30rem;
 }
+#divCH{
+  height: 300rem;
+  width: 500rem;
+  margin: 50rem;
+  padding: 10rem;
+  background-color: rgba(207, 207, 207, 0.6);
+  border: 10rem solid black;
+  color: darkturquoise;
+  font-size: 30rem;
+
+}
 .b01 {
   height: 50rem;
   width: 600rem;

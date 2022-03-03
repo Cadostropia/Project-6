@@ -57,3 +57,24 @@ let xaybc= `
 let xaybcKSON= JSON.parse(xaybc);
 console.log(xaybc);
 console.log(xaybcKSON);
+function myfuction(myData){
+    const i = myData.length;
+    let myNewData = [];
+    myNewData[0]="";
+
+    for(let bc = 0; bc<i; bc++){
+        myNewData[bc] = 
+          " " + myData[bc].name 
+        + " " + myData[bc].occupation 
+        + " " + myData[bc].age 
+        + " " + myData[bc].country
+    }
+
+    
+    return myNewData;
+}
+fetch('/JSON/people.json')
+  .then(response => response.json())
+  .then(responsed => responsed.people)
+  .then(data02 => myfuction(data02))
+ .then(data => document.getElementById("divCH").textContent = data);
