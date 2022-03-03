@@ -1,0 +1,34 @@
+{
+    "people": [
+        {
+            "name": "Salih",
+            "occupation": "Computer Engineer",
+            "age": "20",
+            "country": "North Cyprus"
+        },
+        {
+            "name": "Ceyda",
+            "occupation": "Artist",
+            "age": "15",
+            "country": "Turkey"
+        },
+        {
+            "name": "Ece",
+            "occupation": "Vet",
+            "age": "9",
+            "country": "Turkey"
+        },
+        {
+            "name": "Salih",
+            "occupation": "Computer Engineer",
+            "age": "20",
+            "country": "North Cyprus"
+        },
+        {
+            "name": "Salih",
+            "occupation": "Computer Engineer",
+            "age": "20",
+            "country": "North Cyprus"
+        }
+    ]
+}
