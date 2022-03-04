@@ -73,10 +73,9 @@ function myfuction(myData){
     
     return myNewData;
 }
-fetch('/JSON/people.json')
+fetch('/JSON/people03.json')
   .then(response => response.json())
-  .then(responsed => responsed.people)
   .then(data02 => myfuction(data02))
-  .then(data => console.log(data));
-
-//  .then(data => document.getElementById("divCH").textContent = data);
+  //.then(data => console.log(data));
+  .then(data => document.getElementById("divCH").innerHTML = `${data[0]}<br>${data[1]}<br>${data[2]}`);
+  //`${data[0]} <br> ${data[1]}`
