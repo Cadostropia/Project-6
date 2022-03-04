@@ -64,7 +64,7 @@ function myfuction(myData){
 
     for(let bc = 0; bc<i; bc++){
         myNewData[bc] = 
-          " " + myData[bc].name 
+          "" + myData[bc].name 
         + " " + myData[bc].occupation 
         + " " + myData[bc].age 
         + " " + myData[bc].country
@@ -77,4 +77,6 @@ fetch('/JSON/people.json')
   .then(response => response.json())
   .then(responsed => responsed.people)
   .then(data02 => myfuction(data02))
- .then(data => document.getElementById("divCH").textContent = data);
+  .then(data => console.log(data));
+
+//  .then(data => document.getElementById("divCH").textContent = data);
