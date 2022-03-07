@@ -26,7 +26,7 @@ fetch('/JSON/people.json')
 .then(function(obj){console.log(obj);})
 .catch(function(error){console.error('ERROR WARNING')})
 
-document.getElementById("div-to-be-changed").textContent = carJson;
+document.getElementById("div-to-be-changed").textContent = `Waiting for the type result ...`;
 function changeText(){
     console.log("Change Text was clicked");
     // document.getElementById("div-to-be-changed").textContent = "Hello I am RKCT602";
